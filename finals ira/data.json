@@ -7,26 +7,76 @@
     "github": "https://github.com/CodePilot69"
   },
   "skills": [
-    { "category": "Languages", "items": ["HTML5", "CSS3", "JavaScript", "Java", "C", "C++", "C#", "Python"] },
-    { "category": "Tools", "items": ["Git", "GitHub", "Figma", "VS Code"] },
-    { "category": "Soft Skills", "items": ["Problem Solving", "Team Collaboration", "Time Management"] }
+    {
+      "category": "Languages",
+      "items": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Java",
+        "C",
+        "C++",
+        "C#",
+        "Python"
+      ]
+    },
+    {
+      "category": "Tools",
+      "items": [
+        "Git",
+        "GitHub",
+        "Figma",
+        "VS Code"
+      ]
+    },
+    {
+      "category": "Soft Skills",
+      "items": [
+        "Problem Solving",
+        "Team Collaboration",
+        "Time Management"
+      ]
+    }
   ],
   "projects": [
     {
       "id": 1,
-      "title": "Digiweb",
+      "title": "Web Development 1",
       "description": "An Online Digital Selling platform that also handles commissions.",
-      "image": "./assets/digiweb.jpg",
-      "tags": ["HTML", "CSS", "JavaScript"],
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
       "link": "https://github.com/CodePilot69/webdev1"
     },
     {
       "id": 2,
-      "title": "Interactive Task Manager",
+      "title": "Object Oriented Program",
       "description": "A to-do list application utilizing local storage to save user data.",
-      "image": "./assets/task-manager.jpg",
-      "tags": ["JavaScript"],
+      "tags": [
+        "Java"
+      ],
       "link": "https://github.com/CodePilot69/OOP-2026"
+    },
+    {
+      "id": 3,
+      "title": "Compro",
+      "description": "Java programming repository for COMPRO2 course.",
+      "tags": [
+        "Java"
+      ],
+      "link": "https://github.com/CodePilot69/COMPRO2-2026"
+    },
+    {
+      "id": 4,
+      "title": "BLCK_TOP Prototype",
+      "description": "Figma prototype for BLCK_TOP design project.",
+      "tags": [
+        "Figma",
+        "UI/UX"
+      ],
+      "link": "https://www.figma.com/proto/iWxCejIRooBiCBw6D9IJSL/BLCK_TOP?node-id=111-195&starting-point-node-id=111%3A195&t=HPuw8g3Mh98OGaPj-1"
     }
   ],
   "certifications": [
@@ -42,7 +92,7 @@
     {
       "id": 1,
       "title": "Web Development 1",
-      "institution": "Harvard University",
+      "institution": "Lorma Colleges",
       "period": "2025 - Present",
       "description": "Studying core front-end technologies: HTML semantics, CSS responsive design, and JavaScript DOM manipulation."
     }

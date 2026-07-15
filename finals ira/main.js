@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-  // --- 1. MOBILE SIDEBAR TOGGLE ---
+ 
   const mobileToggle = document.querySelector('.mobile-toggle');
   const appShell = document.querySelector('.app-shell');
   const fileItems = document.querySelectorAll('.file-item');
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   let allProjects = [];
 
-  // --- 2. FETCH DATA ---
+ 
   fetch('./data.json')
     .then(response => response.json())
     .then(data => {
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
     .catch(error => console.error('Data pipeline error:', error));
 
 
-  // --- 3. RENDER FUNCTIONS ---
+ 
 
   function renderPersonalInfo(info) {
     document.getElementById('hero-name').textContent = info.name;
@@ -101,7 +101,6 @@ document.addEventListener('DOMContentLoaded', () => {
       const tags = project.tags.map(t => `<span class="tag">${t}</span>`).join('');
       container.innerHTML += `
         <article class="project-card">
-          <img src="${project.image}" alt="${project.title}">
           <h3>${project.title}</h3>
           <p>${project.description}</p>
           <div class="project-tags">${tags}</div>

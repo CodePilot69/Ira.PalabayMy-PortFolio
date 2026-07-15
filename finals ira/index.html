@@ -4,9 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ira Palabay_MyPortfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -23,32 +20,32 @@
         <span class="logo-bracket">&lt;/&gt;</span>
         <div class="logo-text">
           <span class="logo-name">Ira Palabay</span>
-          <span class="logo-sub">portfolio ~ main</span>
+          <span class="logo-sub">My Portfolio</span>
         </div>
       </div>
 
       <nav class="file-tree">
         <span class="file-tree-label">EXPLORER</span>
         <a href="#home" class="file-item active" style="--tab-accent: var(--accent-blue);">
-          <span class="file-dot"></span>home.tsx
+          <span class="file-dot"></span>home
         </a>
         <a href="#about" class="file-item" style="--tab-accent: var(--accent-orange);">
-          <span class="file-dot"></span>about.md
+          <span class="file-dot"></span>about
         </a>
         <a href="#skills" class="file-item" style="--tab-accent: var(--accent-green);">
-          <span class="file-dot"></span>skills.json
+          <span class="file-dot"></span>skills
         </a>
         <a href="#projects" class="file-item" style="--tab-accent: var(--accent-purple);">
-          <span class="file-dot"></span>projects/
+          <span class="file-dot"></span>projects
         </a>
         <a href="#certifications" class="file-item" style="--tab-accent: var(--accent-yellow);">
-          <span class="file-dot"></span>certifications.yaml
+          <span class="file-dot"></span>certifications
         </a>
         <a href="#education" class="file-item" style="--tab-accent: var(--accent-blue);">
-          <span class="file-dot"></span>education.log
+          <span class="file-dot"></span>education
         </a>
         <a href="#contact" class="file-item" style="--tab-accent: var(--accent-green);">
-          <span class="file-dot"></span>contact.sh
+          <span class="file-dot"></span>contact
         </a>
       </nav>
 
@@ -60,9 +57,12 @@
     <main class="content">
 
       <section id="home" class="panel hero-panel">
-        <div class="panel-tab" style="--tab-accent: var(--accent-blue);">home.tsx</div>
+        <div class="panel-tab" style="--tab-accent: var(--accent-blue);">home</div>
         <div class="panel-body hero-body">
-          <span class="hero-comment">// currently building</span>
+          <span class="hero-comment"></span>
+
+          <img src="pfp.png" alt="Ira Palabay" class="profile-pic">
+
           <h1 id="hero-name">Ira Palabay</h1>
           <h2 id="hero-role">Future Senior Web Developer</h2>
           <p id="hero-tagline">Where Innovation Meets Execution</p>
@@ -70,7 +70,7 @@
       </section>
 
       <section id="about" class="panel">
-        <div class="panel-tab" style="--tab-accent: var(--accent-orange);">about.md</div>
+        <div class="panel-tab" style="--tab-accent: var(--accent-orange);">about</div>
         <div class="panel-body">
           <h2>About Me</h2>
           <p>"As an aspiring IT professional, I am mastering front-end and systems development. I specialize in building robust applications by focusing on structural semantics, responsive layouts, and dynamic, data-driven interactions."</p>
@@ -78,7 +78,7 @@
       </section>
 
       <section id="skills" class="panel">
-        <div class="panel-tab" style="--tab-accent: var(--accent-green);">skills.json</div>
+        <div class="panel-tab" style="--tab-accent: var(--accent-green);">skills</div>
         <div class="panel-body">
           <h2>Technical &amp; Soft Skills</h2>
           <div id="skills-container" class="skills-grid"></div>
@@ -86,7 +86,7 @@
       </section>
 
       <section id="projects" class="panel">
-        <div class="panel-tab" style="--tab-accent: var(--accent-purple);">projects/</div>
+        <div class="panel-tab" style="--tab-accent: var(--accent-purple);">projects</div>
         <div class="panel-body">
           <h2>My Projects</h2>
           <div id="project-filters" class="filters-container"></div>
@@ -95,7 +95,7 @@
       </section>
 
       <section id="certifications" class="panel">
-        <div class="panel-tab" style="--tab-accent: var(--accent-yellow);">certifications.yaml</div>
+        <div class="panel-tab" style="--tab-accent: var(--accent-yellow);">certifications</div>
         <div class="panel-body">
           <h2>Certifications &amp; Awards</h2>
           <div id="certifications-container" class="timeline"></div>
@@ -103,7 +103,7 @@
       </section>
 
       <section id="education" class="panel">
-        <div class="panel-tab" style="--tab-accent: var(--accent-blue);">education.log</div>
+        <div class="panel-tab" style="--tab-accent: var(--accent-blue);">education</div>
         <div class="panel-body">
           <h2>Education &amp; Experience</h2>
           <div id="education-container" class="timeline"></div>
@@ -111,21 +111,21 @@
       </section>
 
       <section id="contact" class="panel">
-        <div class="panel-tab" style="--tab-accent: var(--accent-green);">contact.sh</div>
+        <div class="panel-tab" style="--tab-accent: var(--accent-green);">contact</div>
         <div class="panel-body">
           <h2>Get In Touch</h2>
           <p>Want to collaborate? Send me a message below.</p>
           <form id="contact-form" action="#" method="POST">
-            <label for="name">$ name:</label>
+            <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
 
-            <label for="email">$ email:</label>
+            <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
 
-            <label for="message">$ message:</label>
+            <label for="message">Message:</label>
             <textarea id="message" name="message" rows="4" required></textarea>
 
-            <button type="submit">./send_message.sh</button>
+            <button type="submit">Send Message</button>
           </form>
         </div>
       </section>
