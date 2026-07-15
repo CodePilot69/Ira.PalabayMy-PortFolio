@@ -1,0 +1,50 @@
+{
+  "personalInfo": {
+    "name": "Ira Palabay",
+    "role": "Future Senior Web Developer",
+    "tagline": "Where Innovation Meets Execution",
+    "email": "iramishael.palabay@lorma.edu",
+    "github": "https://github.com/CodePilot69"
+  },
+  "skills": [
+    { "category": "Languages", "items": ["HTML5", "CSS3", "JavaScript", "Java", "C", "C++", "C#", "Python"] },
+    { "category": "Tools", "items": ["Git", "GitHub", "Figma", "VS Code"] },
+    { "category": "Soft Skills", "items": ["Problem Solving", "Team Collaboration", "Time Management"] }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Digiweb",
+      "description": "An Online Digital Selling platform that also handles commissions.",
+      "image": "./assets/digiweb.jpg",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "link": "https://github.com/CodePilot69/webdev1"
+    },
+    {
+      "id": 2,
+      "title": "Interactive Task Manager",
+      "description": "A to-do list application utilizing local storage to save user data.",
+      "image": "./assets/task-manager.jpg",
+      "tags": ["JavaScript"],
+      "link": "https://github.com/CodePilot69/OOP-2026"
+    }
+  ],
+  "certifications": [
+    {
+      "id": 1,
+      "title": "Responsive Web Design",
+      "issuer": "Lorma Colleges",
+      "date": "2025",
+      "description": "Completed 10000 hours of coursework building responsive layouts with HTML5 and CSS."
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "title": "Web Development 1",
+      "institution": "Harvard University",
+      "period": "2025 - Present",
+      "description": "Studying core front-end technologies: HTML semantics, CSS responsive design, and JavaScript DOM manipulation."
+    }
+  ]
+}
